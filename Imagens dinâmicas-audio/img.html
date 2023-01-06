@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Imagens que mudam de tamanho de acordo com o tamanho da tela</p>
+    <picture>
+    <source media="(max-width:700px )" srcset="imgs/pequeno.png" type="image/png">
+    <source media="(max-width: 1000px )" srcset="imgs/media.png" type="image/png">
+    <img src="imgs/grande.png" alt="Imagem">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <audio preload="metadata" controls loop>
+        <source src="Progressive Rock - Audionautix.mp3" type="audio/mpeg">
+    </audio>
+    <p>source src="Progressive Rock - Audionautix.mp3" type="audio/mpeg"</p>
+    <p>audio/mpeg é usado para arquivos mp3. se o arquivo for ogg é usado audio/ogg. e se for wav é usado audio/wav.</p>
+    <p>É aconselhável usar os 3 formatos para que atinja um número maior de navegadores</p>
+    <p>Controls possibilita que o usúario pause e despause o áudio. Além disso é aconselhável o uso de metadata no preload, pois carregará apenas informações essenciais antes de abrir o site</p>
+    <p>É possível deixar o áudio em loop usando o parâmetro loop</p>
+    
+</body>
+</html>
