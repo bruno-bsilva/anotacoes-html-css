@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(119, 195, 146);
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+h1{
+    color: rgb(43, 12, 203);
+}
+
+ 
