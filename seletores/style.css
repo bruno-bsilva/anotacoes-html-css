@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(223, 192, 129);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: justify;
+   text-indent: 30px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+h1#principal{
+    background-color: rgb(129, 180, 180);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+}
+p.explicacao{
+    background-color: aquamarine;
+}
+p.lorem{
+    background-color: blueviolet;
+}

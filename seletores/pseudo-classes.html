@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo-classes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+    div.box{
+        height: 200px;
+        width: 200px;
+        display:inline-block ;
+        text-align: center;
+        border: 1px solid black;
+    }
+    div.box:hover{
+        background-color: aqua;
+    }
+    div#text:hover{
+        color: red;
+    }
+    h1::after{
+        content: " PE";
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo-classes</h1>
+    <div class="box">01</div>
+    <div class="box">02</div>
+    <div class="box">03</div>
+    <div id="text">Passe o mouse aqui</div>
+    <p>Uma pseudo-classe é usada para formas e são representadas por:</p>
+    <h1>Pseudo-elementos</h1>
+    <p>Criam um conteúdo para determinada classe. É representada por::</p>
+
+</body>
+</html>
