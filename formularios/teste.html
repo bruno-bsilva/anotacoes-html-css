@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    <title>Formulário</title>
+
+</head> 
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <!-- sempre use post com dados sensíveis -->
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Usuário:</label>
+            <input type="text" name="usuario" id="iusuario" required placeholder="Digite seu usuário" size="12" autocomplete="username">
+        </p> 
+        <p>
+            <label for="isobrenome">Senha:</label>
+            <input type="password" name="senha" id="isenha" required minlength="8" placeholder="Digite sua senha" size="10" autocomplete="current-password" >
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    <!-- size determina quantos caracteres aparecerão, ja o min ou max lenght, determina quantos podem ser usados -->
+       
+    </form>
+    
+</body>   
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio e Checkbox</title>
+</head> 
+<body>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imasc" checked value="masc">
+            <label for="imasc">Masculino</label>
+            <input type="radio" name="sexo" id="ifem" value="fem">
+            <label for="ifem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Bandas favoritas</legend>
+            <input type="checkbox" name="beatles" id="ibeatles">
+            <label for="ibeatles">The Beatles</label> <br>
+            <input type="checkbox" name="stones" id="istones">
+            <label for="istones">The Rolling Stones</label><br>
+            <input type="checkbox" name="led" id="iled">
+            <label for="iled">Led Zeppelin</label><br>
+            <input type="checkbox" name="sabbath" id="isabbath">
+            <label for="isabbath">Black Sabbath</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Cadastar">
+            <input type="reset" value="Limpar">
+
+        </p>
+    </form>
+    
+</body>   
+</html>

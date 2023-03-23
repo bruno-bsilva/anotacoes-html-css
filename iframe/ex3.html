@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        body{
+            background-color: rgb(218, 120, 120);
+        }
+        a{
+           text-decoration: none;
+        }
+        #pag1:hover{
+            background-color: aqua;
+        }
+        #pag2:hover{
+            background-color:  rgb(37, 204, 37);
+        }
+        #pag3:hover{
+            background-color: rgb(230, 173, 42);
+        }
+        iframe{
+            display: block;
+            margin: auto;
+            margin: 20px;
+            width: 95vw;
+            height:350px;
+            border: 1px dashed rgb(111, 103, 103);
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iusto atque perspiciatis, recusandae, et dolores enim culpa quisquam nulla aspernatur eius, excepturi voluptatum? Praesentium sed ipsum nisi non deserunt quibusdam. Vitae dolores, recusandae error illum quisquam cum laudantium voluptatem enim iste. Recusandae ratione harum odit eligendi nesciunt illum excepturi inventore?</p>
+    <ul>
+       <li><a href="paginas/pag1.html" target="frame" id="pag1">Primeira página</a></li>
+       <li><a href="paginas/pag2.html" target="frame" id="pag2">Segunda página</a></li>
+       <li><a href="paginas/pag3.html" target="frame" id="pag3">Terceira página</a></li>
+    </ul>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita facilis, nostrum fugit dicta ab recusandae facere sunt molestiae numquam eius libero ea velit in quia architecto nesciunt temporibus! Assumenda quas temporibus deleniti. Facilis tempora non quos aliquid nihil laudantium totam obcaecati animi numquam, autem, dolorem porro reprehenderit provident. Labore, mollitia! <!--Coloque seu html aqui, dentro de srcdoc-->
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" name="frame" frameborder="0"></iframe>
+
+</body>    
+</html>

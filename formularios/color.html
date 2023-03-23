@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color, rage e file</title>
+</head> 
+<body>
+    <form action="cadastro.php">
+       <p>
+        <label for="icor">Cor</label>
+        <input type="color" name="cor" id="icor">
+       </p>
+       <p>
+        <label for="inivel">Nível de satisfação</label>
+        <input type="range" name="nivel" id="inivel" min="0" max="10" value="5">
+       </p>
+       <p>
+        <label for="iarq">Selecione o arquivo</label>
+        <input type="file" name="arq" id="iarq">
+       </p>
+        <p>
+            <input type="submit" value="Cadastar">
+            <input type="reset" value="Limpar">
+
+        </p>
+    </form>
+    
+</body>   
+</html>
