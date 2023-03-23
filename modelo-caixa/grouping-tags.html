@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tags grouping</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: dimgray;
+        }
+         header{
+            background-color: azure;
+            text-align: center;
+        } 
+         section > article{
+            background-color: azure;
+        }
+        article > p{
+            background-color: aquamarine;
+        }
+        p#primeiro{
+            background-color: red;
+        }
+        footer{
+            background-color: azure;
+            text-align: center;
+        }
+         footer > a{
+            background-color: blueviolet;
+        }
+        a{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tags de agrupamento</h1>
+    </header>
+    <main>
+       <section>
+           <article>
+            <p id="primeiro">A tag header funciona como uma div, mas por ter um sentido semântico(cabeçalho) facilita o envolvimento com mecânismos de busca</p>
+            <p>Basicamente é o conteúdo do site</p>
+           </article>
+       </section>
+    </main>
+    <footer>
+        <a href="#">link</a>
+        <p>Este é o rodapé do site</p>
+    </footer>
+
+    
+</body>    
+</html>
