@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Colgroup</title>
+    <style>
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+        }
+       
+        colgroup>col:nth-child(2n) {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col id="nome">
+            <col id="idade">
+            <col id="sexo">
+            <col id="profissao">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>profissão</th>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>45</td>
+            <td>Masculino</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Anderson</td>
+            <td>29</td>
+            <td>Masculino</td>
+            <td>Mecânico</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>25</td>
+            <td>Feminino</td>
+            <td>cientista</td>
+        </tr>
+    </table> 
+</body>    
+</html>

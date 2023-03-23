@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url('imagens-cap19/target001.png');
+            background-size: 100% 100%;
+            position: relative;
+            height: 94vh;
+            padding: 10px;
+            background-color: aquamarine;
+        }
+        #conteudo{
+            background-image: url('imagens-cap19/target001.png');
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: blueviolet;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+
+</body>    
+</html>
